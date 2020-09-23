@@ -1,0 +1,182 @@
+html {
+    color : #010065;
+}
+.migo-color {
+    color : #010065;
+}
+.header-height {
+    height : 90px
+}
+.main-navigation {
+    padding-top : 1.5rem;
+}
+.main-navigation li {
+    display : inline-block;
+    margin-right:2rem;
+}
+.main-navigation > li a:not(.active)  {
+    text-decoration : none ; 
+    /* color : rgb(47, 20, 110); */
+    color : #fff;
+    font-weight: 650;
+    opacity : .75;
+    font-size : 1.2rem;
+    font-family : "Segoe UI" , Helvetica , "Helvetica neue" , sans-serif;
+    /* transition : color 2s; */
+}
+.main-navigation > li a:hover {
+    color : rgb(41, 172, 143);
+}
+.get-migo {
+    background : #00f;
+    padding : 11px 22px;
+    
+}
+.hero-section {
+    background-image: url(../assets/images/finegirl.jpg); /*linear-gradient(to right, rgba(239, 124, 0, 0.8), rgba(255, 181, 102, 0.8) ), */
+    background-size: cover;
+    background-position: 50%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display : flex;
+    align-items: center;
+    -webkit-box-align: center;
+    min-height : 35rem;
+    position: relative;
+    padding-bottom : 5rem;
+    z-index : 5
+}
+.hero-header {
+    font-size: 4rem;
+    font-weight: 950;
+    color : #fff;
+    margin-bottom : 5rem;
+    letter-spacing: 4px;
+    text-transform: none;
+}
+.hero-cta {
+    background : #fff;
+    border-radius : 5px;
+    padding : 22px 44px;
+    color : #00f;
+    font-weight: 750;
+}
+.for-who {
+    padding-right : 20px;
+    padding-left : 20px;
+}
+.relative{
+    position : relative;
+    margin-top : -10rem; 
+    z-index : 10
+}
+.why h2 , .why h3 , .migo-header {
+    font-weight: 750;
+    font-size : 2rem;
+    margin: .75rem 0 0;
+}
+.why h3 {
+   font-size: 1.45rem;
+   font-weight: 550rem;
+   margin: .55rem 0 0;
+}
+.migo-news {
+    margin-top : 2rem;
+    margin-bottom : 2rem;
+    opacity: 1;
+    transform : translateZ(0);
+    transition-property: opacity,transform;
+    transition-duration: 2s; 
+    transition-timing-function: cubic-bezier(.22,.61,.36,1);
+}
+.migo-news:hover {
+    transform: translate3d(0,100px,0);
+    opacity : 0.4
+}
+.migo-card {
+    height: 240px;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+}
+.bg-img-news {
+    background-image: url(../assets/images/migo-logo-final-inverted-01-1.png);
+}
+.migo-card-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: .875rem;
+}
+/*
+.bg-img-news {
+  background-image: url(../assets/images/AndelaCairo_ByOpiyo_954.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:20vw;
+}
+*/
+a {
+    text-decoration: none;
+}
+a.tag {
+    margin-right : 1.25rem;
+}
+.tag {
+    display: inline-block;
+    transition : all .2s ease
+}
+.tag-primary {
+    font-size: .875rem;
+    letter-spacing: .19px;
+    color : #010065
+}
+a.text-single-post-card-info {
+    margin-right: 1.25rem;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    -webkit-transition: border-bottom .2s ease;
+    -o-transition: border-bottom .2s ease;
+    transition: border-bottom .2s ease;
+}
+.text-single-post-card-info {
+    font-size: .75rem;
+}
+.migo-card-content {
+    margin-top: .875rem;
+}
+.no-margin {
+    margin : 0
+}
+.migo-card-content > h3 a {
+    -webkit-transition: border-bottom .2s ease;
+    -o-transition: border-bottom .2s ease;
+    transition: border-bottom .2s ease;
+    border-bottom: 1px solid rgba(0,0,0,0);
+    color: #0000fe;
+}
+.careers{
+    background-image: url(../assets/images/Careers-Section-1-scaled.jpg); /*linear-gradient(to right, rgba(239, 124, 0, 0.8), rgba(255, 181, 102, 0.8) ), */
+    background-size: cover;
+    background-position: 50%;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    display : flex;
+    align-items: center;
+    -webkit-box-align: center;
+    min-height : 35rem;
+    position: relative;
+    padding-bottom : 5rem;
+    z-index : 5;
+    text-align : center;
+}
+.bg-footer {
+    background-color: rgba(0,0,254,.1);
+}
